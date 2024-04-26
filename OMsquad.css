@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url(imG/Players.jpeg);
+    width: 100%;
+    height: 900px;
+    backdrop-filter: blur(3px);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(113, 172, 193);
+    letter-spacing: 5px;
+    display: flex;
+    
+}
+header img {
+    mix-blend-mode: color-burn;
+    width: 180px;
+}
+.teamlogo{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.teamlogo p{
+    display: inline;
+    font-size: xx-large;
+}
+.teamlogo p:hover{
+    color: lightblue;
+    transition: 0.5s;
+}
+.options ul li:hover{
+    color: lightblue;
+    transition: 0.5s;
+}
+.options{
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    width: 600px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+.options ul li{
+    cursor: pointer;
+    display: inline;
+    font-size: x-large;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(113, 172, 193);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 90%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.297);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+ul li{
+    margin-left: 25px;
+    text-shadow: white 1px 1px 3px;
+}
+h1{
+    letter-spacing: 5px;
+    color: aqua;
+    text-shadow: black 1px 1px 10px;
+    font-family: 'Oswald', sans-serif;  
+}
+.container h1{
+    color: aqua;
+    text-shadow: black 1px 1px 10px;
+}
+.Goalkeepers{
+    width: 25%;
+    height: 400px;
+    line-height: 50px;
+    font-size: x-large;
+}
+.Goalkeepers h1{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.Defenders {
+    width: 25%;
+    height: 400px;
+    line-height: 50px;
+    font-size: x-large;
+}
+.Defenders h1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.midfield h1{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.Attackers h1{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.midfield{
+    width: 25%;
+    height: 400px;
+    line-height: 50px;
+    font-size: x-large;
+}
+.Attackers{
+    width: 25%;
+    height: 400px;
+    line-height: 50px;
+    font-size: x-large;
+}
+.Goalkeepers,.Attackers,.midfield,.Defenders{
+    border-radius: 20px;
+    background-color: rgba(60, 90, 209, 0.699);
+    box-shadow: rgb(0, 55, 207) 1px 1px 10px 5px;
+}

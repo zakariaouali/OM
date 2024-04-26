@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url(imG/TeamOm.jpeg);
+    width: 100%;
+    height: 1vf;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(113, 172, 193);
+    letter-spacing: 5px;
+    display: flex;
+    
+    
+}
+header img {
+    mix-blend-mode: color-burn;
+    width: 180px;
+}
+.teamlogo{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.teamlogo p{
+    display: inline;
+    font-size: xx-large;
+}
+.teamlogo p:hover{
+    color: lightblue;
+    transition: 0.5s;
+}
+.options ul li:hover{
+    color: lightblue;
+    transition: 0.5s;
+}
+.options{
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    width: 600px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.options ul li{
+    cursor: pointer;
+    display: inline;
+    font-size: x-large;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.737);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+ h1{
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    letter-spacing: 5px;
+}
+.team1{
+    position: absolute;
+    left: 10%;
+    bottom: 0px;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+.VS{
+    position: absolute;
+    left: 47%;
+    top: 40%;
+    font-size: 50px;
+}
+.team2{
+    position: absolute;
+    right: 10%;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+section img{
+    height: 150px;
+}
+.Gameday{
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+.fa-house{
+    position: relative;
+    left: 7%;
+    top: 35%;
+    font-size: 50px;
+}
+.fa-plane-departure{
+    position: absolute;
+    right: 7%;
+    top: 35%;
+    font-size: 50px;
+}
