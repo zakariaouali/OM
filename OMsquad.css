@@ -4,7 +4,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
-    background-image: url(imG/Players.jpeg);
+    background-image: url(Players.jpeg);
     width: 100%;
     height: 900px;
     backdrop-filter: blur(3px);
